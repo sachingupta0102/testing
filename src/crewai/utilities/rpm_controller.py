@@ -4,7 +4,7 @@ from typing import Union
 
 from pydantic import BaseModel, ConfigDict, Field, PrivateAttr, model_validator
 
-from crewai.utilities.logger import Logger
+from utilities.logger import Logger
 
 
 class RPMController(BaseModel):

@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from crewai.utilities.printer import Printer
+from utilities.printer import Printer
 
 
 class Logger:

@@ -3,7 +3,7 @@ import json
 from langchain.schema import HumanMessage, SystemMessage
 from langchain_openai import ChatOpenAI
 from pydantic import model_validator
-from crewai.agents.agent_builder.utilities.base_output_converter_base import (
+from agents.agent_builder.utilities.base_output_converter_base import (
     OutputConverter,
 )
 

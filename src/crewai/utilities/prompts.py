@@ -3,7 +3,7 @@ from typing import Any, ClassVar, Optional
 from langchain.prompts import BasePromptTemplate, PromptTemplate
 from pydantic import BaseModel, Field
 
-from crewai.utilities import I18N
+from utilities import I18N
 
 
 class Prompts(BaseModel):
