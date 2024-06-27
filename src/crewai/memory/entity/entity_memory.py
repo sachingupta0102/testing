@@ -1,6 +1,6 @@
-from crewai.memory.entity.entity_memory_item import EntityMemoryItem
-from crewai.memory.memory import Memory
-from crewai.memory.storage.rag_storage import RAGStorage
+from memory.entity.entity_memory_item import EntityMemoryItem
+from memory.memory import Memory
+from memory.storage.rag_storage import RAGStorage
 
 
 class EntityMemory(Memory):
