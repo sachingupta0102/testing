@@ -11,13 +11,13 @@ from langchain_core.exceptions import OutputParserException
 from langchain_core.tools import BaseTool
 from langchain_core.utils.input import get_color_mapping
 from pydantic import InstanceOf
-from crewai.agents.agent_builder.base_agent_executor_mixin import CrewAgentExecutorMixin
+from agents.agent_builder.base_agent_executor_mixin import CrewAgentExecutorMixin
 
-from crewai.agents.tools_handler import ToolsHandler
-from crewai.tools.tool_usage import ToolUsage, ToolUsageErrorException
-from crewai.utilities import I18N
-from crewai.utilities.constants import TRAINING_DATA_FILE
-from crewai.utilities.training_handler import CrewTrainingHandler
+from agents.tools_handler import ToolsHandler
+from tools.tool_usage import ToolUsage, ToolUsageErrorException
+from utilities import I18N
+from utilities.constants import TRAINING_DATA_FILE
+from utilities.training_handler import CrewTrainingHandler
 
 
 class CrewAgentExecutor(AgentExecutor, CrewAgentExecutorMixin):

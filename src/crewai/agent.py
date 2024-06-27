@@ -10,14 +10,14 @@ from langchain_openai import ChatOpenAI
 
 from pydantic import Field, InstanceOf, model_validator
 
-from crewai.agents import CacheHandler, CrewAgentExecutor, CrewAgentParser
-from crewai.memory.contextual.contextual_memory import ContextualMemory
-from crewai.tools.agent_tools import AgentTools
-from crewai.utilities import Prompts, Converter
-from crewai.utilities.constants import TRAINED_AGENTS_DATA_FILE, TRAINING_DATA_FILE
-from crewai.utilities.token_counter_callback import TokenCalcHandler
-from crewai.agents.agent_builder.base_agent import BaseAgent
-from crewai.utilities.training_handler import CrewTrainingHandler
+from agents import CacheHandler, CrewAgentExecutor, CrewAgentParser
+from memory.contextual.contextual_memory import ContextualMemory
+from tools.agent_tools import AgentTools
+from utilities import Prompts, Converter
+from utilities.constants import TRAINED_AGENTS_DATA_FILE, TRAINING_DATA_FILE
+from utilities.token_counter_callback import TokenCalcHandler
+from agents.agent_builder.base_agent import BaseAgent
+from utilities.training_handler import CrewTrainingHandler
 
 
 class Agent(BaseAgent):

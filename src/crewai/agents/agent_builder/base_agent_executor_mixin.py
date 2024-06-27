@@ -1,10 +1,10 @@
 import time
 
-from crewai.memory.entity.entity_memory_item import EntityMemoryItem
-from crewai.memory.long_term.long_term_memory_item import LongTermMemoryItem
-from crewai.memory.short_term.short_term_memory_item import ShortTermMemoryItem
-from crewai.utilities.converter import ConverterError
-from crewai.utilities.evaluators.task_evaluator import TaskEvaluator
+from memory.entity.entity_memory_item import EntityMemoryItem
+from memory.long_term.long_term_memory_item import LongTermMemoryItem
+from memory.short_term.short_term_memory_item import ShortTermMemoryItem
+from utilities.converter import ConverterError
+from utilities.evaluators.task_evaluator import TaskEvaluator
 
 
 class CrewAgentExecutorMixin:
