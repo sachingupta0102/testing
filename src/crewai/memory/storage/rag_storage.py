@@ -8,8 +8,8 @@ from embedchain import App
 from embedchain.llm.base import BaseLlm
 from embedchain.vectordb.chroma import InvalidDimensionException
 
-from crewai.memory.storage.interface import Storage
-from crewai.utilities.paths import db_storage_path
+from memory.storage.interface import Storage
+from utilities.paths import db_storage_path
 
 
 @contextlib.contextmanager

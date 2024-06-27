@@ -1,6 +1,6 @@
 from typing import Any, Dict, Optional
 
-from crewai.memory.storage.interface import Storage
+from memory.storage.interface import Storage
 
 
 class Memory:
